@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Chat Application</h1>
+    <main>
+        <h1 class ="header"> RoboChat</h1>
+        <ul id = "messages">
+            <li>Test Meessage</li>
+            <li>Hello</li>
+        </ul>
+        <form id="form">
+            <input type="text" id ="input" placeholder="ПИШИ тута">
+            <input type="submit" class = "submit" value="SEND">
+         </form>
+    </main>
 </body>
+<script src="https://cdn.socket.io/4.8.3/socket.io.min.js" integrity="sha384-kzavj5fiMwLKzzD1f8S7TeoVIEi7uKHvbTA3ueZkrzYq75pNQUiUi6Dy98Q3fxb0" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </html>
